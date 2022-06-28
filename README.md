@@ -22,7 +22,7 @@ The above figure shows the tradeoff between precision and recall on the test set
 
 [1] [ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases, Wang et al., 2017](https://arxiv.org/abs/1705.02315)
 
-I completed this project as part of the Udacity AI for Healthcare nanodegree which provided the blank notebooks and several other functionalities. Algorithm implementations, parameter tuning, and the mock FDA submission were completed by myself.
+I completed this project as part of the Udacity AI for Healthcare nanodegree which provided the blank notebooks and several other functionalities. Algorithm implementations, parameter tuning,  writeup/interpretation of results, and the mock FDA submission were completed by myself.
 
 # Depends
 ```
