@@ -4,7 +4,7 @@ Implementation of a CNN for classifying the presence of pneumonia in X-ray image
 
 The classification algorithm takes in DICOM files, checks the metadata for correct patient position, body part, and modality, and resizes the image into 224x224 pixels with 3 rgb colour channels. These resized images are classified with a deep CNN with a single logit output. If the output value is above a pre-calibrated threshold, the image is classified as Pneumonia, else No Pneumonia. See below for a schematic.
 
-<img src="https://github.com/callumcanavan/x-ray-pneumonia-detection/blob/main/images/architecture.png" alt="drawing" width="450"/>
+<img src="https://github.com/callumcanavan/x-ray-pneumonia-detection/blob/main/images/architecture.png" alt="drawing" width="900"/>
 
 Data used for training and validating the model were obtained from the NIH Chest X-ray Dataset [1](https://arxiv.org/abs/1705.02315), wherein 14 disease labels (including pneumonia) specifying the presence of each disease were created using natural language processing to mine diagnoses from the radiological report associated with each image.
 
