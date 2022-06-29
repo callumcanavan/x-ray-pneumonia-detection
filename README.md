@@ -26,5 +26,5 @@ I completed this project as part of the Udacity AI for Healthcare nanodegree whi
 
 # Depends
 ```
-keras scikit-learn numpy
+torch scikit-learn numpy
 ```
